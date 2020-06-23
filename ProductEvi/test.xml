@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="个人中心相关测试" parallel="tests">
+	
+	
+
+
+
+	
+<!--  -->
+	<test name="登录退出相关测试" >
+	    <parameter name="username" value="18825921605" />
+	<parameter name="password" value="abc123456qwe" />
+	<parameter name="Wpassword" value="111111" />
+	
+	
+		<packages>
+			<package name="test.ds.testcases" />
+		</packages>
+	</test>
+	
+</suite>
+
+
+
